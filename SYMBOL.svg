@@ -1,0 +1,21 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes changeFont {
+      0% { font-family: 'Noto Sans'; }
+      20% { font-family: 'Arial'; }
+      40% { font-family: 'Courier New'; }
+      60% { font-family: 'Times New Roman'; }
+      80% { font-family: 'Verdana'; }
+      100% { font-family: 'Noto Sans'; }
+    }
+
+    text {
+      animation: changeFont 2.2s infinite;
+      animation-delay: 3.2s;
+    }
+  </style>
+
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="black" font-size="48">
+    ?
+  </text>
+</svg>
